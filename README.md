@@ -1,16 +1,18 @@
-# <p align=center> Readme.md Generator 👋</p>
+#<p align=center>undefined</p> 👋
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
     <img src="https://img.shields.io/github/languages/top/jpd61/README-generator"  />
     <img src="https://img.shields.io/github/issues/jpd61/README-generator" />
     <img src="https://img.shields.io/github/last-commit/markcfleming1990/README-generator" >
     <a href="https://twitter.com/goat904">
-        <img alt="Twitter: goat904" src="https://img.shields.io/twitter/follow/goat904.svg?style=social" target="_blank" />
+        <img alt="Twitter: jpdewoody" src="https://img.shields.io/twitter/follow/goat904.svg?style=social" target="_blank" />
     </a>
 </p>
+
+
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-🔍 An application to quickly produce employee team profiles
+🔍 An application developed to allow users to create a team profile page based on input. This application uses user inputs from Inquirer in Node.js to generate an HTML file with styling to demonstrate use of OOP and TDD with jest
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -20,22 +22,23 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 npm i inquirer 
+💾 Clone the repository then Download Node using"npm i" in the command line, followed by the inquirer and Jest modules.
 ## Usage
-💻 To allow business to organize staffing of multiple locations
+💻 quickly generate team profiles
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
 This application is covered by the MIT license. 
 ## Contributing
-👪 Mark Fleming
+👪 Please follow installation directions
 ## Tests
-✏️ Yes
+✏️ Run "npm test" 
 ## Questions
-✋ contact me @ markcfleming1990@gmail.com<br />
+✋ Please contact me with any questions @ markcfleming1990@gmail.com<br />
 <br />
 :octocat: Find me on GitHub: [markcfleming1990](https://github.com/markcfleming1990)<br />
 <br />
 ✉️ Email me with any questions: markcfleming1990@gmail.com<br /><br />
 
 _This README was generated with ❤️ by [README-generator](https://github.com/markcfleming1990/README-generator) 🔥🔥🔥_
+
