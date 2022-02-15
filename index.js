@@ -1,4 +1,4 @@
-const generateHTML = require('.src/generateHTML');
+const generateHTML = require('./src/generateHTML');
 
 //profiles
 const Manager = require('./lib/manager');
@@ -71,7 +71,7 @@ const addManager = () => {
       const {name, id, email, officeNumber } = managerInput;
       const manager = new Manager(name, email, officeNumber);
 
-      teamArray.push(manager);
+      teamArry.push(manager);
       console.log(manager);
     })
 
@@ -97,7 +97,7 @@ const addEmployee = () => {
       name: 'name',
       message: "What is the name of the employee?",
       validate: nameInput => {
-        if(!nameInput) {
+        if(nameInput) {
           return true;
         }else {
           console.error("Please enter the name of the employee")
@@ -159,7 +159,7 @@ const addEmployee = () => {
     }
   },
   {
-    type: 'cnfirm',
+    type: 'confirm',
     name: 'confirmAddEmployee',
     message: "Would you like to add another team member?",
     default: false
@@ -179,15 +179,38 @@ const addEmployee = () => {
       console.log(employee);
     }
 
-    teamArray.push(employee);
+    teamArry.push(employee);
 
     if(confirmAddEmployee) {
-      return addEmployee(teamArray);
+      return addEmployee(teamArry);
     }else {
-      return teamArray;
+      return teamArry;
     }
   })
 };
 
 
 //generate HTML page file 
+//write variables
+const writeFile = data => {
+  fs.writeFile('./dist/index.html', data, err => {
+    if (err) {
+      console.log(err);
+      return;
+    }else {
+      console.log("Your team profile has been created! Please refence the index.html")
+    }
+  })
+};
+//add initialization function and chain appropriate returns
+addManager()
+.then(addEmployee)
+.then(teamArray => {
+  return generateHTML(teamArray);
+})
+.then(pageHTML => {
+  return writeFile(pageHTML);
+})
+.catch(err => {
+  console.log(err);
+});
