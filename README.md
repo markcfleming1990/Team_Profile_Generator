@@ -1,5 +1,5 @@
 
-  #<p align="center>  Team Profile Generator 👋</p>
+  # <p align="center>  Team Profile Generator 👋</p>
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/jpd61/README-generator" />
     <img src="https://img.shields.io/github/languages/top/jpd61/README-generator"  />
