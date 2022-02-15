@@ -24,7 +24,9 @@
 ## Installation
 💾 Clone the repository then Download Node using"npm i" in the command line, followed by the inquirer and Jest modules.
 ## Usage
-💻 quickly generate team profiles
+💻 quickly generate team profiles through Inquirer prompts here is a sample 
+![team profile generator pic](https://user-images.githubusercontent.com/93231712/154128835-03b1186f-d8a8-47b6-9a22-fd73a84ad1d1.PNG)
+
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
