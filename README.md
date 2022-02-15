@@ -12,7 +12,7 @@
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-🔍 An application developed to allow users to create a team profile page based on input. This application uses user inputs from Inquirer in Node.js to generate an HTML file with styling to demonstrate use of OOP and TDD with jest. Included is a video linked ![here] (https://youtu.be/yxB-jvtOFsw)
+🔍 An application developed to allow users to create a team profile page based on input. This application uses user inputs from Inquirer in Node.js to generate an HTML file with styling to demonstrate use of OOP and TDD with jest. Included is a video linked (https://youtu.be/yxB-jvtOFsw)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
